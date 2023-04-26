@@ -6,5 +6,6 @@ namespace app_web_backend.Models {
 
         }
         // models (objetos) que serão mapeados para o banco de dados
+        public DbSet<Veiculo> Veiculos { get; set; }
     }
 }
